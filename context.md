@@ -6,14 +6,14 @@
 La tienda online debe reflejar exclusividad y limpieza visual. El objetivo técnico es un **SEO semántico impecable** (uso de etiquetas `<header>`, `<main>`, `<section>`, `<article>`, `<aside>`) y un rendimiento ultra rápido para asegurar la conversión en dispositivos móviles.
 
 ### 🛠️ Especificaciones Técnicas
-*   **Lenguaje:** HTML5 con estructura semántica avanzada.
-*   **Estilos:** Uso mandatorio de **Tailwind CSS v4**.
-*   **CSS Adicional:** Únicamente en casos muy puntuales donde el framework no cubra la necesidad específica.
+* **Lenguaje:** HTML5 con estructura semántica avanzada.
+* **Estilos:** Uso mandatorio de **Tailwind CSS v4**.
+* **CSS Adicional:** Únicamente en casos muy puntuales donde el framework no cubra la necesidad específica.
 
 ---
 
 ### 🛍️ Catálogo Seleccionado (Temporada Verano 2026)
-*A continuación, los 8 productos estrella con sus precios finales:*
+*A continuación, los 20 productos con sus precios finales:*
 
 | Producto | Categoría | Precio | Descripción Breve |
 | :--- | :--- | :--- | :--- |
@@ -25,6 +25,18 @@ La tienda online debe reflejar exclusividad y limpieza visual. El objetivo técn
 | **Sneaker Nuage** | Calzado | **180,00 €** | Calzado deportivo minimalista en blanco mate. |
 | **Sac Monolithe** | Accesorios | **450,00 €** | Bolso de mano rígido en cuero negro curtido vegetal. |
 | **T-Shirt Horizon** | Básicos | **45,00 €** | Camiseta de algodón Pima con ajuste premium. |
+| **Robe Zénith** | Vestidos | **195,00 €** | Vestido midi de corte asimétrico en satén fluido. |
+| **Mocassin Sol** | Calzado | **210,00 €** | Mocasín de ante suave con detalle dorado arena. |
+| **Veste Nomade** | Sastrería | **280,00 €** | Americana desestructurada en mezcla de lana fría. |
+| **Short Bastille** | Pantalones | **75,00 €** | Pantalón corto de pinzas en lino belga transpirable. |
+| **Top Éclat** | Básicos | **55,00 €** | Camiseta de tirantes en punto de seda acanalado. |
+| **Ceinture Or** | Accesorios | **95,00 €** | Cinturón de cuero fino con hebilla artesanal dorada. |
+| **Cardigan Brise** | Punto | **140,00 €** | Cárdigan ligero de cashmere y algodón. |
+| **Jupe Ligne** | Faldas | **110,00 €** | Falda lápiz con abertura lateral en tejido técnico. |
+| **Lunettes Aura** | Accesorios | **225,00 €** | Gafas de sol de acetato japonés con montura cuadrada. |
+| **Polo Indigo** | Camisas | **90,00 €** | Polo de punto fino con textura micro-perforada. |
+| **Cabas Mer** | Accesorios | **135,00 €** | Bolso tipo tote en lona encerada y detalles de piel. |
+| **Blouse Vent** | Camisas | **115,00 €** | Blusa vaporosa de gasa con puños franceses. |
 
 ---
 
