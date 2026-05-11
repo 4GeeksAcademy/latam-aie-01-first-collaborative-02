@@ -17,6 +17,143 @@
 		/>
 
 		<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@graph": [
+					{
+						"@type": "Organization",
+						"@id": "https://leclatstudio.fr/#organization",
+						"name": "L'Éclat Studio",
+						"url": "https://leclatstudio.fr/",
+						"logo": "https://leclatstudio.fr/assets/logo.png",
+						"description": "Firma de moda francesa con sede en Le Marais, Paris. Especializada en minimalismo de lujo, sastreria arquitectonica y materiales responsables con trazabilidad.",
+						"email": "bonjour@leclatstudio.fr",
+						"telephone": "+33 1 83 99 00 00",
+						"address": {
+							"@type": "PostalAddress",
+							"streetAddress": "Rue Vieille du Temple",
+							"addressLocality": "Paris",
+							"addressCountry": "FR"
+						},
+						"brand": {
+							"@type": "Brand",
+							"name": "L'Éclat Studio"
+						}
+					},
+					{
+						"@type": "WebSite",
+						"@id": "https://leclatstudio.fr/#website",
+						"url": "https://leclatstudio.fr/",
+						"name": "L'Éclat Studio",
+						"description": "Tienda online de moda francesa de lujo minimalista.",
+						"publisher": {
+							"@id": "https://leclatstudio.fr/#organization"
+						},
+						"inLanguage": "es"
+					},
+					{
+						"@type": "CollectionPage",
+						"@id": "https://leclatstudio.fr/#home",
+						"url": "https://leclatstudio.fr/",
+						"name": "L'Éclat Studio | Home",
+						"description": "Coleccion Verano 2026 de L'Éclat Studio.",
+						"isPartOf": {
+							"@id": "https://leclatstudio.fr/#website"
+						},
+						"about": {
+							"@id": "https://leclatstudio.fr/#organization"
+						},
+						"mainEntity": {
+							"@type": "OfferCatalog",
+							"name": "Catalogo Temporada Verano 2026",
+							"itemListElement": [
+								{
+									"@type": "ListItem",
+									"position": 1,
+									"item": {
+										"@type": "Product",
+										"name": "Veste de L'Aube",
+										"category": "Sastreria",
+										"description": "Blazer estructurado en lino organico color crema.",
+										"offers": {
+											"@type": "Offer",
+											"price": "245.00",
+											"priceCurrency": "EUR",
+											"availability": "https://schema.org/InStock"
+										}
+									}
+								},
+								{
+									"@type": "ListItem",
+									"position": 2,
+									"item": {
+										"@type": "Product",
+										"name": "Pantalon Marais",
+										"category": "Pantalones",
+										"description": "Pantalon de corte recto en gabardina de algodon.",
+										"offers": {
+											"@type": "Offer",
+											"price": "120.00",
+											"priceCurrency": "EUR",
+											"availability": "https://schema.org/InStock"
+										}
+									}
+								},
+								{
+									"@type": "ListItem",
+									"position": 3,
+									"item": {
+										"@type": "Product",
+										"name": "Chemise Riva",
+										"category": "Camisas",
+										"description": "Camisa de seda ligera con cuello mao y botones de nacar.",
+										"offers": {
+											"@type": "Offer",
+											"price": "85.00",
+											"priceCurrency": "EUR",
+											"availability": "https://schema.org/InStock"
+										}
+									}
+								},
+								{
+									"@type": "ListItem",
+									"position": 4,
+									"item": {
+										"@type": "Product",
+										"name": "Bottes Brume",
+										"category": "Calzado",
+										"description": "Botas de cuero hechas a mano con suela ergonomica.",
+										"offers": {
+											"@type": "Offer",
+											"price": "310.00",
+											"priceCurrency": "EUR",
+											"availability": "https://schema.org/InStock"
+										}
+									}
+								},
+								{
+									"@type": "ListItem",
+									"position": 5,
+									"item": {
+										"@type": "Product",
+										"name": "Echarpe Soie",
+										"category": "Accesorios",
+										"description": "Panuelo 100% seda con estampado geometrico sutil.",
+										"offers": {
+											"@type": "Offer",
+											"price": "65.00",
+											"priceCurrency": "EUR",
+											"availability": "https://schema.org/InStock"
+										}
+									}
+								}
+							]
+						}
+					}
+				]
+			}
+		</script>
 	</head>
 	<body class="bg-[#F9F9F9] text-[#1A1A1A] antialiased selection:bg-[#C5A059]/30 selection:text-[#1A1A1A]">
 		<div class="relative min-h-screen overflow-x-clip">
