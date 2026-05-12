@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Vista de producto de L’Éclat Studio: Veste de L'Aube con composición sostenible, trazabilidad y compra rápida optimizada para móvil."
+    />
+    <meta name="robots" content="index,follow" />
+    <title>L’Éclat Studio | Veste de L'Aube</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <style>
+      @media (prefers-reduced-motion: no-preference) {
+        .fade-rise {
+          opacity: 0;
+          transform: translateY(12px);
+          animation: fade-rise 700ms ease-out forwards;
+        }
+
+        .fade-rise-delay {
+          opacity: 0;
+          transform: translateY(12px);
+          animation: fade-rise 850ms ease-out forwards;
+          animation-delay: 120ms;
+        }
+
+        @keyframes fade-rise {
+          to {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+      }
+    </style>
+  </head>
+  <body class="bg-[#F9F9F9] text-[#1A1A1A] antialiased selection:bg-[#C5A059]/30 selection:text-[#1A1A1A]">
+    <div class="relative min-h-screen overflow-x-clip">
+      <div
+        aria-hidden="true"
+        class="pointer-events-none absolute inset-x-0 top-0 -z-10 h-[520px] bg-[radial-gradient(circle_at_8%_12%,rgba(197,160,89,0.22),transparent_36%),radial-gradient(circle_at_92%_6%,rgba(26,26,26,0.12),transparent_34%),linear-gradient(to_bottom,#ffffff_0%,#f9f9f9_58%,#f9f9f9_100%)]"
+      ></div>
+
+      <header class="sticky top-0 z-40 border-b border-[#1A1A1A]/10 bg-[#F9F9F9]/90 backdrop-blur">
+        <nav
+          class="mx-auto flex w-full max-w-7xl items-center gap-4 px-4 py-4 sm:px-6 lg:px-8"
+          aria-label="Navegación principal"
+        >
+          <a href="index.html" class="group flex shrink-0 items-center gap-3" aria-label="Ir al inicio de L’Éclat Studio">
+            <img
+              src="assets/logo.png"
+              alt="Logo de L’Éclat Studio"
+              class="h-10 w-10 rounded-full border border-[#1A1A1A]/15 bg-white object-cover shadow-sm"
+            />
+            <div class="leading-tight">
+              <p class="font-['Playfair_Display'] text-xl font-semibold tracking-wide text-[#1A1A1A]">L’Éclat Studio</p>
+              <p class="text-xs uppercase tracking-[0.22em] text-[#1A1A1A]/65">Le Marais · Paris</p>
+            </div>
+          </a>
+
+          <form class="mx-auto hidden w-full max-w-xl md:block" role="search" aria-label="Buscar productos">
+            <label for="site-search" class="sr-only">Buscar en L’Éclat Studio</label>
+            <div class="relative">
+              <span
+                aria-hidden="true"
+                class="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-[#1A1A1A]/45"
+              >
+                <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="11" cy="11" r="7"></circle>
+                  <path d="M20 20l-3.5-3.5"></path>
+                </svg>
+              </span>
+              <input
+                id="site-search"
+                name="q"
+                type="search"
+                placeholder="Buscar sastrería, calzado, accesorios..."
+                class="h-11 w-full rounded-full border border-[#1A1A1A]/15 bg-white pl-11 pr-4 text-sm outline-none transition focus:border-[#C5A059] focus:ring-2 focus:ring-[#C5A059]/40"
+              />
+            </div>
+          </form>
+
+          <details class="relative ml-auto shrink-0">
+            <summary
+              class="flex cursor-pointer list-none items-center gap-2 rounded-full border border-[#1A1A1A]/20 bg-white px-4 py-2 text-sm font-medium transition hover:border-[#C5A059] hover:text-[#C5A059]"
+            >
+              <span>Cuenta</span>
+              <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M6 9l6 6 6-6"></path>
+              </svg>
+            </summary>
+            <ul
+              class="absolute right-0 mt-2 w-48 overflow-hidden rounded-2xl border border-[#1A1A1A]/10 bg-white py-2 text-sm shadow-lg"
+              aria-label="Menú de cuenta"
+            >
+              <li><a href="#" class="block px-4 py-2 hover:bg-[#1A1A1A]/5">Iniciar sesión</a></li>
+              <li><a href="#" class="block px-4 py-2 hover:bg-[#1A1A1A]/5">Mis pedidos</a></li>
+              <li><a href="cart.html" class="block px-4 py-2 hover:bg-[#1A1A1A]/5">Mi carrito</a></li>
+            </ul>
+          </details>
+        </nav>
+        <div class="mx-auto block w-full max-w-7xl px-4 pb-4 md:hidden sm:px-6 lg:px-8">
+          <form role="search" aria-label="Buscar productos en móvil">
+            <label for="site-search-mobile" class="sr-only">Buscar en L’Éclat Studio</label>
+            <div class="relative">
+              <span
+                aria-hidden="true"
+                class="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-[#1A1A1A]/45"
+              >
+                <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="11" cy="11" r="7"></circle>
+                  <path d="M20 20l-3.5-3.5"></path>
+                </svg>
+              </span>
+              <input
+                id="site-search-mobile"
+                name="q"
+                type="search"
+                placeholder="Buscar productos..."
+                class="h-11 w-full rounded-full border border-[#1A1A1A]/15 bg-white pl-11 pr-4 text-sm outline-none transition focus:border-[#C5A059] focus:ring-2 focus:ring-[#C5A059]/40"
+              />
+            </div>
+          </form>
+        </div>
+      </header>
+
+      <main class="mx-auto w-full max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
+        <nav aria-label="Breadcrumb" class="fade-rise mb-6 text-xs uppercase tracking-[0.2em] text-[#1A1A1A]/55">
+          <ol class="flex flex-wrap items-center gap-2">
+            <li><a href="index.html" class="hover:text-[#C5A059]">Inicio</a></li>
+            <li aria-hidden="true">/</li>
+            <li><a href="catalog.html" class="hover:text-[#C5A059]">Catálogo</a></li>
+            <li aria-hidden="true">/</li>
+            <li class="text-[#1A1A1A]">Veste de L'Aube</li>
+          </ol>
+        </nav>
+
+        <section class="grid gap-8 lg:grid-cols-[1.12fr_0.88fr] lg:gap-10" aria-label="Detalle de producto principal">
+          <article
+            class="fade-rise overflow-hidden rounded-3xl border border-[#1A1A1A]/10 bg-white shadow-sm"
+            itemscope
+            itemtype="https://schema.org/Product"
+          >
+            <figure class="relative overflow-hidden border-b border-[#1A1A1A]/10 bg-[#EFEDE7]">
+              <img
+                src="https://images.unsplash.com/photo-1591369822096-ffd140ec948f?auto=format&fit=crop&w=1400&q=80"
+                alt="Veste de L'Aube en lino orgánico color crema con corte arquitectónico"
+                class="h-[430px] w-full object-cover sm:h-[520px]"
+                loading="eager"
+                itemprop="image"
+              />
+              <figcaption class="absolute bottom-4 left-4 rounded-full bg-[#1A1A1A]/80 px-3 py-1 text-xs uppercase tracking-[0.18em] text-[#F9F9F9]">
+                Editorial Summer 2026
+              </figcaption>
+            </figure>
+
+            <div class="space-y-6 p-5 sm:p-7">
+              <header>
+                <p class="text-xs font-semibold uppercase tracking-[0.22em] text-[#C5A059]">Sastrería</p>
+                <h1 itemprop="name" class="mt-2 font-['Playfair_Display'] text-4xl leading-tight sm:text-5xl">Veste de L'Aube</h1>
+                <p class="mt-3 max-w-xl text-sm leading-relaxed text-[#1A1A1A]/75" itemprop="description">
+                  Blazer estructurado en lino orgánico color crema. Silueta limpia y hombro arquitectónico para looks formales o de fin de semana en clave minimalista.
+                </p>
+              </header>
+
+              <dl class="grid grid-cols-2 gap-4 rounded-2xl border border-[#1A1A1A]/10 bg-[#F9F9F9] p-4 text-sm">
+                <div>
+                  <dt class="text-[#1A1A1A]/65">SKU</dt>
+                  <dd class="mt-1 font-medium" itemprop="sku">LA-VDA-2026</dd>
+                </div>
+                <div itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                  <dt class="text-[#1A1A1A]/65">Precio final</dt>
+                  <dd class="mt-1 text-2xl font-semibold text-[#1A1A1A]">
+                    245,00 €
+                    <meta itemprop="priceCurrency" content="EUR" />
+                    <meta itemprop="price" content="245.00" />
+                    <link itemprop="availability" href="https://schema.org/InStock" />
+                  </dd>
+                </div>
+              </dl>
+
+              <section aria-labelledby="composicion-producto" class="space-y-3">
+                <h2 id="composicion-producto" class="font-['Playfair_Display'] text-2xl">Composición y trazabilidad</h2>
+                <ul class="space-y-2 text-sm leading-relaxed text-[#1A1A1A]/75">
+                  <li>Lino orgánico 100% biodegradable.</li>
+                  <li>Forro interior en algodón regenerativo certificado.</li>
+                  <li>Tintura de bajo impacto hídrico producida en Francia.</li>
+                  <li>Confección local en atelier asociado de Île-de-France.</li>
+                </ul>
+              </section>
+            </div>
+          </article>
+
+          <aside class="fade-rise-delay space-y-5" aria-label="Panel de compra y atributos">
+            <section class="rounded-3xl border border-[#1A1A1A]/10 bg-white p-5 shadow-sm sm:p-6">
+              <h2 class="font-['Playfair_Display'] text-3xl">Compra</h2>
+              <p class="mt-2 text-sm text-[#1A1A1A]/70">Entrega estimada en Francia metropolitana: 2 a 4 días laborables.</p>
+
+              <form class="mt-5 space-y-4" aria-label="Formulario de compra de Veste de L'Aube">
+                <div>
+                  <label for="size" class="mb-2 block text-sm font-medium">Talla</label>
+                  <select
+                    id="size"
+                    name="size"
+                    class="h-11 w-full rounded-xl border border-[#1A1A1A]/15 bg-white px-4 text-sm outline-none transition focus:border-[#C5A059] focus:ring-2 focus:ring-[#C5A059]/35"
+                  >
+                    <option value="s">S</option>
+                    <option value="m" selected>M</option>
+                    <option value="l">L</option>
+                    <option value="xl">XL</option>
+                  </select>
+                </div>
+
+                <div>
+                  <label for="quantity" class="mb-2 block text-sm font-medium">Cantidad</label>
+                  <input
+                    id="quantity"
+                    name="quantity"
+                    type="number"
+                    min="1"
+                    value="1"
+                    class="h-11 w-full rounded-xl border border-[#1A1A1A]/15 bg-white px-4 text-sm outline-none transition focus:border-[#C5A059] focus:ring-2 focus:ring-[#C5A059]/35"
+                  />
+                </div>
+
+                <button
+                  type="submit"
+                  class="h-11 w-full rounded-xl bg-[#1A1A1A] px-5 text-sm font-semibold text-[#F9F9F9] transition hover:bg-[#2B2B2B]"
+                >
+                  Agregar al carrito
+                </button>
+                <a
+                  href="checkout.html"
+                  class="flex h-11 w-full items-center justify-center rounded-xl border border-[#1A1A1A]/20 text-sm font-semibold transition hover:border-[#C5A059] hover:text-[#C5A059]"
+                >
+                  Ir a checkout (3 pasos)
+                </a>
+              </form>
+            </section>
+
+            <section class="rounded-3xl border border-[#1A1A1A]/10 bg-white p-5 shadow-sm sm:p-6" aria-labelledby="detalle-marca">
+              <h2 id="detalle-marca" class="font-['Playfair_Display'] text-2xl">Minimalismo de Lujo</h2>
+              <ul class="mt-4 space-y-3 text-sm text-[#1A1A1A]/75">
+                <li>Arquitectura de corte francés con estructura liviana.</li>
+                <li>Materiales responsables con transparencia de origen.</li>
+                <li>Paleta neutra pensada para fondo de armario premium.</li>
+              </ul>
+            </section>
+          </aside>
+        </section>
+
+        <section class="mt-12" aria-labelledby="mas-productos">
+          <div class="mb-5 flex items-center justify-between gap-3">
+            <h2 id="mas-productos" class="font-['Playfair_Display'] text-3xl">Más productos</h2>
+            <a href="catalog.html" class="text-sm font-medium text-[#1A1A1A]/70 transition hover:text-[#C5A059]">Ver catálogo completo</a>
+          </div>
+
+          <div class="grid grid-cols-1 gap-4 sm:grid-cols-2" itemscope itemtype="https://schema.org/ItemList">
+            <meta itemprop="name" content="Selección de productos relacionados de L’Éclat Studio" />
+
+            <article class="rounded-2xl border border-[#1A1A1A]/10 bg-white p-4 shadow-sm transition hover:-translate-y-1 hover:border-[#C5A059]/60 hover:shadow-lg" itemprop="itemListElement" itemscope itemtype="https://schema.org/Product">
+              <div class="flex items-start gap-3">
+                <figure class="h-20 w-16 shrink-0 overflow-hidden rounded-lg bg-[#F2F2F2]">
+                  <img
+                    src="https://images.unsplash.com/photo-1548883354-7622d03aca27?auto=format&fit=crop&w=300&q=80"
+                    alt="Pantalon Marais de corte recto en tono neutro"
+                    class="h-full w-full object-cover"
+                    loading="lazy"
+                    itemprop="image"
+                  />
+                </figure>
+                <div class="min-w-0">
+                  <p class="text-xs uppercase tracking-[0.2em] text-[#1A1A1A]/55">Pantalones</p>
+                  <h3 class="mt-1 truncate font-['Playfair_Display'] text-2xl leading-none" itemprop="name">Pantalon Marais</h3>
+                  <p class="mt-2 text-sm text-[#1A1A1A]/70">Corte recto en gabardina de algodón.</p>
+                  <p class="mt-2 text-base font-semibold" itemprop="offers" itemscope itemtype="https://schema.org/Offer">120,00 €<meta itemprop="priceCurrency" content="EUR" /><meta itemprop="price" content="120.00" /></p>
+                </div>
+              </div>
+            </article>
+
+            <article class="rounded-2xl border border-[#1A1A1A]/10 bg-white p-4 shadow-sm transition hover:-translate-y-1 hover:border-[#C5A059]/60 hover:shadow-lg" itemprop="itemListElement" itemscope itemtype="https://schema.org/Product">
+              <div class="flex items-start gap-3">
+                <figure class="h-20 w-16 shrink-0 overflow-hidden rounded-lg bg-[#F2F2F2]">
+                  <img
+                    src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=300&q=80"
+                    alt="Chemise Riva de seda ligera en estilo minimalista"
+                    class="h-full w-full object-cover"
+                    loading="lazy"
+                    itemprop="image"
+                  />
+                </figure>
+                <div class="min-w-0">
+                  <p class="text-xs uppercase tracking-[0.2em] text-[#1A1A1A]/55">Camisas</p>
+                  <h3 class="mt-1 truncate font-['Playfair_Display'] text-2xl leading-none" itemprop="name">Chemise Riva</h3>
+                  <p class="mt-2 text-sm text-[#1A1A1A]/70">Seda ligera con cuello mao y botones de nácar.</p>
+                  <p class="mt-2 text-base font-semibold" itemprop="offers" itemscope itemtype="https://schema.org/Offer">85,00 €<meta itemprop="priceCurrency" content="EUR" /><meta itemprop="price" content="85.00" /></p>
+                </div>
+              </div>
+            </article>
+
+            <article class="rounded-2xl border border-[#1A1A1A]/10 bg-white p-4 shadow-sm transition hover:-translate-y-1 hover:border-[#C5A059]/60 hover:shadow-lg" itemprop="itemListElement" itemscope itemtype="https://schema.org/Product">
+              <div class="flex items-start gap-3">
+                <figure class="h-20 w-16 shrink-0 overflow-hidden rounded-lg bg-[#F2F2F2]">
+                  <img
+                    src="https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=300&q=80"
+                    alt="Sac Monolithe en cuero negro de estructura rígida"
+                    class="h-full w-full object-cover"
+                    loading="lazy"
+                    itemprop="image"
+                  />
+                </figure>
+                <div class="min-w-0">
+                  <p class="text-xs uppercase tracking-[0.2em] text-[#1A1A1A]/55">Accesorios</p>
+                  <h3 class="mt-1 truncate font-['Playfair_Display'] text-2xl leading-none" itemprop="name">Sac Monolithe</h3>
+                  <p class="mt-2 text-sm text-[#1A1A1A]/70">Bolso rígido en cuero negro curtido vegetal.</p>
+                  <p class="mt-2 text-base font-semibold" itemprop="offers" itemscope itemtype="https://schema.org/Offer">450,00 €<meta itemprop="priceCurrency" content="EUR" /><meta itemprop="price" content="450.00" /></p>
+                </div>
+              </div>
+            </article>
+
+            <article class="rounded-2xl border border-[#1A1A1A]/10 bg-white p-4 shadow-sm transition hover:-translate-y-1 hover:border-[#C5A059]/60 hover:shadow-lg" itemprop="itemListElement" itemscope itemtype="https://schema.org/Product">
+              <div class="flex items-start gap-3">
+                <figure class="h-20 w-16 shrink-0 overflow-hidden rounded-lg bg-[#F2F2F2]">
+                  <img
+                    src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=300&q=80"
+                    alt="Mocassin Sol de ante suave con detalle dorado"
+                    class="h-full w-full object-cover"
+                    loading="lazy"
+                    itemprop="image"
+                  />
+                </figure>
+                <div class="min-w-0">
+                  <p class="text-xs uppercase tracking-[0.2em] text-[#1A1A1A]/55">Calzado</p>
+                  <h3 class="mt-1 truncate font-['Playfair_Display'] text-2xl leading-none" itemprop="name">Mocassin Sol</h3>
+                  <p class="mt-2 text-sm text-[#1A1A1A]/70">Ante suave con detalle dorado arena.</p>
+                  <p class="mt-2 text-base font-semibold" itemprop="offers" itemscope itemtype="https://schema.org/Offer">210,00 €<meta itemprop="priceCurrency" content="EUR" /><meta itemprop="price" content="210.00" /></p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+      </main>
+
+      <footer class="border-t border-[#1A1A1A]/10 bg-white">
+        <section class="mx-auto grid w-full max-w-7xl gap-10 px-4 py-12 sm:px-6 md:grid-cols-3 lg:px-8" aria-label="Footer principal">
+          <article>
+            <h2 class="font-['Playfair_Display'] text-2xl">Categorías</h2>
+            <ul class="mt-4 space-y-2 text-sm text-[#1A1A1A]/75">
+              <li><a href="catalog.html" class="hover:text-[#C5A059]">Calzado</a></li>
+              <li><a href="catalog.html" class="hover:text-[#C5A059]">Camisas</a></li>
+              <li><a href="catalog.html" class="hover:text-[#C5A059]">Pantalones</a></li>
+              <li><a href="catalog.html" class="hover:text-[#C5A059]">Accesorios</a></li>
+            </ul>
+          </article>
+
+          <article>
+            <h2 class="font-['Playfair_Display'] text-2xl">Legal</h2>
+            <ul class="mt-4 space-y-2 text-sm text-[#1A1A1A]/75">
+              <li><a href="#" class="hover:text-[#C5A059]">Términos y condiciones</a></li>
+              <li><a href="#" class="hover:text-[#C5A059]">Política de privacidad</a></li>
+              <li><a href="#" class="hover:text-[#C5A059]">Sobre la marca</a></li>
+            </ul>
+          </article>
+
+          <article>
+            <h2 class="font-['Playfair_Display'] text-2xl">Contacto</h2>
+            <address class="mt-4 space-y-2 text-sm not-italic text-[#1A1A1A]/75">
+              <p>Atelier Le Marais, Rue Vieille du Temple, Paris</p>
+              <p><a href="mailto:bonjour@leclatstudio.fr" class="hover:text-[#C5A059]">bonjour@leclatstudio.fr</a></p>
+              <p><a href="tel:+33183990000" class="hover:text-[#C5A059]">+33 1 83 99 00 00</a></p>
+            </address>
+          </article>
+        </section>
+
+        <section class="border-t border-[#1A1A1A]/10">
+          <div class="mx-auto flex w-full max-w-7xl flex-wrap items-center justify-between gap-3 px-4 py-5 text-xs uppercase tracking-[0.2em] text-[#1A1A1A]/55 sm:px-6 lg:px-8">
+            <p>© 2026 L’Éclat Studio</p>
+            <p>Minimalismo de Lujo Responsable</p>
+          </div>
+        </section>
+      </footer>
+    </div>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Inicio",
+                "item": "https://leclatstudio.fr/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Catalogo",
+                "item": "https://leclatstudio.fr/catalog.html"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Veste de L'Aube",
+                "item": "https://leclatstudio.fr/product.html"
+              }
+            ]
+          },
+          {
+            "@type": "Product",
+            "name": "Veste de L'Aube",
+            "sku": "LA-VDA-2026",
+            "brand": {
+              "@type": "Brand",
+              "name": "L'Éclat Studio"
+            },
+            "category": "Sastreria",
+            "description": "Blazer estructurado en lino organico color crema con patron arquitectonico. Fabricado en Francia con trazabilidad de materiales.",
+            "material": "Lino organico 100% biodegradable",
+            "image": [
+              "https://images.unsplash.com/photo-1591369822096-ffd140ec948f?auto=format&fit=crop&w=1400&q=80"
+            ],
+            "offers": {
+              "@type": "Offer",
+              "priceCurrency": "EUR",
+              "price": "245.00",
+              "availability": "https://schema.org/InStock"
+            }
+          }
+        ]
+      }
+    </script>
+  </body>
+</html>
