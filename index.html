@@ -164,7 +164,7 @@
 
 			<header class="sticky top-0 z-40 border-b border-[#1A1A1A]/10 bg-[#F9F9F9]/90 backdrop-blur">
 				<nav
-					class="mx-auto flex w-full max-w-7xl items-center gap-4 px-4 py-4 sm:px-6 lg:px-8"
+					class="mx-auto flex w-full max-w-7xl flex-wrap items-center justify-between gap-x-4 gap-y-3 px-4 py-4 sm:px-6 lg:px-8"
 					aria-label="Navegación principal"
 				>
 					<a
@@ -173,7 +173,7 @@
 						aria-label="Ir al inicio de L’Éclat Studio"
 					>
 						<img
-							src="../assets/logo.png"
+							src="assets/logo.png"
 							alt="Logo de L’Éclat Studio"
 							class="h-10 w-10 rounded-full border border-[#1A1A1A]/15 bg-white object-cover shadow-sm"
 						/>
@@ -185,7 +185,22 @@
 						</div>
 					</a>
 
-					<form class="mx-auto hidden w-full max-w-xl md:block" role="search" aria-label="Buscar productos">
+					<ul class="hidden items-center gap-1" aria-hidden="true">
+						<li>
+							<a href="index.html" aria-current="page" class="rounded-full bg-[#1A1A1A] px-4 py-2 text-sm font-medium text-white">Home</a>
+						</li>
+						<li>
+							<a href="catalog.html" class="rounded-full px-4 py-2 text-sm font-medium text-[#1A1A1A]/70 transition hover:bg-white hover:text-[#1A1A1A]">Catálogo</a>
+						</li>
+						<li>
+							<a href="product.html" class="rounded-full px-4 py-2 text-sm font-medium text-[#1A1A1A]/70 transition hover:bg-white hover:text-[#1A1A1A]">Vista de producto</a>
+						</li>
+						<li>
+							<a href="cart.html" class="rounded-full px-4 py-2 text-sm font-medium text-[#1A1A1A]/70 transition hover:bg-white hover:text-[#1A1A1A]">Carrito</a>
+						</li>
+					</ul>
+
+					<form class="order-3 hidden w-full md:order-none md:block md:min-w-[16rem] md:max-w-[34rem] md:flex-1" role="search" aria-label="Buscar productos">
 						<label for="site-search" class="sr-only">Buscar en L’Éclat Studio</label>
 						<div class="relative">
 							<span
@@ -207,7 +222,7 @@
 						</div>
 					</form>
 
-					<details class="relative ml-auto shrink-0">
+					<details class="relative z-50 shrink-0">
 						<summary
 							class="flex cursor-pointer list-none items-center gap-2 rounded-full border border-[#1A1A1A]/20 bg-white px-4 py-2 text-sm font-medium transition hover:border-[#C5A059] hover:text-[#C5A059]"
 						>
@@ -217,7 +232,7 @@
 							</svg>
 						</summary>
 						<ul
-							class="absolute right-0 mt-2 w-48 overflow-hidden rounded-2xl border border-[#1A1A1A]/10 bg-white py-2 text-sm shadow-lg"
+							class="absolute right-0 z-50 mt-3 w-52 overflow-hidden rounded-2xl border border-[#1A1A1A]/10 bg-white py-2 text-sm shadow-[0_20px_45px_-30px_rgba(26,26,26,0.45)]"
 							aria-label="Menú de cuenta"
 						>
 							<li><a href="#" class="block px-4 py-2 hover:bg-[#1A1A1A]/5">Iniciar sesión</a></li>
@@ -226,6 +241,22 @@
 						</ul>
 					</details>
 				</nav>
+				<div class="mx-auto w-full max-w-7xl px-4 pb-3 sm:px-6 lg:px-8">
+					<ul class="flex items-center gap-2 overflow-x-auto whitespace-nowrap text-sm md:flex-wrap md:justify-center md:overflow-visible md:whitespace-normal">
+						<li>
+							<a href="index.html" aria-current="page" class="inline-flex rounded-full bg-[#1A1A1A] px-4 py-2 font-medium text-white">Home</a>
+						</li>
+						<li>
+							<a href="catalog.html" class="inline-flex rounded-full border border-[#1A1A1A]/15 bg-white px-4 py-2 font-medium text-[#1A1A1A]/75">Catálogo</a>
+						</li>
+						<li>
+							<a href="product.html" class="inline-flex rounded-full border border-[#1A1A1A]/15 bg-white px-4 py-2 font-medium text-[#1A1A1A]/75">Vista de producto</a>
+						</li>
+						<li>
+							<a href="cart.html" class="inline-flex rounded-full border border-[#1A1A1A]/15 bg-white px-4 py-2 font-medium text-[#1A1A1A]/75">Carrito</a>
+						</li>
+					</ul>
+				</div>
 				<div class="mx-auto block w-full max-w-7xl px-4 pb-4 md:hidden sm:px-6 lg:px-8">
 					<form role="search" aria-label="Buscar productos en móvil">
 						<label for="site-search-mobile" class="sr-only">Buscar en L’Éclat Studio</label>
